@@ -3,7 +3,7 @@
 //2023/09/25
 //Problem: When the first digit is "4", the value of PC is not output
 
-//github Link:
+//github Link:https://github.com/PaulFan12138/159102_Assignment2
 #include<iostream>
 #include<string>
 #include<fstream>
@@ -17,7 +17,10 @@ int pc , ir;
 
 //declare variables
 int MasseyNum;
-int FirstNum,SecondNum,ThirdNum,FourthNum;
+int FirstNum;
+int SecondNum;
+int ThirdNum;
+int FourthNum;
 
 //Declare a file input stream object 'file' for reading data from a file
 ifstream file;
@@ -193,7 +196,7 @@ int main(){
                 {
                     cout<<"TRUE – jump to location 07 "<< endl;
                     i = ThirdNum * 16 + FourthNum;
-                
+                    //
                     goto labs;
                 }
                 else
